@@ -234,7 +234,7 @@ You can select the environment you want to use:
 ### Add a Button 
 
 This includes the ui elements such as button that a user will click to trigger the FriendlyScore Connect Flow.
-In your app component html file (in the demo [app.component.html](https://github.com/FriendlyScore/FriendlyScore-Connect-Ionic-Native-Example/blob/master/src/app/app.component.html)) add a button that triggers the FriendlyScore Connect flow.
+In your app component html file (in the demo [app.component.html](https://github.com/FriendlyScore/FriendlyScoreConnect-Ionic-Cordova-Example/blob/master/src/app/app.component.html)) add a button that triggers the FriendlyScore Connect flow.
 ```html
     <ion-content>
         <div style="display: flex; justify-content: center; " text-center align-items-center>
@@ -266,7 +266,7 @@ cp -r ionic-native/dist/@ionic-native/plugins/friendly-score-connect-plugin node
 The plugin is now available for your project to use.
 
 
-- Import the Plugin in your module(In the demo [app-module.ts]()).
+- Import the Plugin in your module(In the demo [app.module.ts](https://github.com/FriendlyScore/FriendlyScoreConnect-Ionic-Cordova-Example/blob/master/src/app/app.module.ts)).
 
 ```typescript
 import {FriendlyScoreConnectPlugin} from '@ionic-native/friendly-score-connect-plugin/ngx';
@@ -280,7 +280,7 @@ providers: [
   ],
 ```
 
-In your component file (in the demo[app-component.ts]()) import the file
+In your component file (in the demo[app.component.ts](https://github.com/FriendlyScore/FriendlyScoreConnect-Ionic-Cordova-Example/blob/master/src/app/app.component.ts)) import the file
 ```typescript
 import {FriendlyScoreConnectPlugin} from '@ionic-native/friendly-score-connect-plugin/ngx';
 
