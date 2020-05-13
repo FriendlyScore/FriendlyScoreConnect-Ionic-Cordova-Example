@@ -8,6 +8,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import {FriendlyScoreConnectPlugin} from '@ionic-native/friendly-score-connect-plugin/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -16,6 +17,7 @@ import { AppRoutingModule } from './app-routing.module';
   providers: [
     StatusBar,
     SplashScreen,
+    FriendlyScoreConnectPlugin,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
