@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.friendlyscore.fs-android-sdk:fsbase-sdk:1.0.13@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce33dc91464aa35c62c208c7f3e22c52/jetified-fsbase-sdk-1.0.13/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce33dc91464aa35c62c208c7f3e22c52/jetified-fsbase-sdk-1.0.13/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce33dc91464aa35c62c208c7f3e22c52/jetified-fsbase-sdk-1.0.13/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

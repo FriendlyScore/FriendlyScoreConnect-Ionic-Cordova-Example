@@ -1,0 +1,350 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.friendlyscore.fs-android-sdk:friendlyscore-connect:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/friendlyscore-connect-1.0.13.aar/8df0386899a9682a0d7227f340a6babe/AndroidManifest.xml:2:1-18:12
+MERGED from [:CordovaLib] /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:1-27:12
+MERGED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:2:1-89:12
+MERGED from [com.github.friendlyscore.fs-android-sdk:fsbase-sdk:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/fsbase-sdk-1.0.13.aar/2a34c0458ba23905d1cabbb044a1ceaf/AndroidManifest.xml:2:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/8a0b70f5eee226a3d6c079a1b665b2fb/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/4846eb78cd7ad426adbd913eadbea338/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/core-ktx-1.1.0.aar/0cec25e3e5aa0c7e15039c069526dc79/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/8525ffcb3153bc2a046d17878b137c15/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/511a4fba04f8d0c2b1e6e30d4ca3b485/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/13ef474d4c4d997e0d10ce34fadc7e85/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/84a27ca295e125886b93755f29093a48/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0.aar/11a36b77ae3499fdf9274052a2e0d2ba/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/e1cde180b4a5ee94d9eb89afec039cca/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/a6500e7e7df10cd6e4ee712ebdcb9854/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/e021514850936596a7eead8ebfaf0644/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/67ebb98adb447ec77969ccff9372294a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/ff927d3afbb2e19a69cb81c0e1c52d4d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/7f77df290eadee4bf1f305eae8191abb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/dc4d003e20d31de6fbbdbddb90a5cb93/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/df6b7f0edbf5d61f2b600f88858673f7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/123f07b41f3ab822e9a1c5cfd83ea513/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/1ef0173021190ef548c1ec97bed10702/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/048bc1380c8b503990a61a7b7484da64/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/61426d0c288f63bf441cdc3735bd4440/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/75b79b6b7dd42bfcf4f24e373c9fb17c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/9ac0a0e5b10a656016b3120107257dd5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/1aa94ea66c52a19c705f8c080832c849/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/3d295a57145d825a140bc99a2daf691c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/b6b1de5f577c9df0bca78822814b6398/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/d0b89bda8415681861f78bac7154f24b/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/1da29d85947f828c9c5f7063c59f3495/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/02b7497c6dc741bba1efb500d50e44cc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/1c11ecee58ecbd53f6bce1e5f164f83f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/f7e7d2a41e246669654461f93bc3a822/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/97be237e9453cc4c166dc3052d7bf99f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/b02cbd1d93ec6401749ff93aebd89208/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/d4f752f8190b1f5448cb00bc1448ba41/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/a0e14d8bc90c1454a54668d58f6fad0e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/74fb9998f6b670b1145a679c27c67b63/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/6149e1b2e08210bd5d695233eb0407e9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/c8e8d54e8a9cca14fed74b61feeb47de/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-service-2.0.0.aar/7a43226fb43d4a3271cb40cdd8ddb4c5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/7dcd41e80e052c2b2a85b5f449b556c0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/31219e61b68cf55400565dbfea939010/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/370caa2320797c73a1fdfaa781ed4903/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:2:1-13:12
+	package
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:2:98-138
+		INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:2:70-97
+		INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:2:139-197
+	android:versionCode
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:2:46-69
+		INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.github.friendlyscore.fs-android-sdk:fsbase-sdk:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/fsbase-sdk-1.0.13.aar/2a34c0458ba23905d1cabbb044a1ceaf/AndroidManifest.xml:11:5-67
+MERGED from [com.github.friendlyscore.fs-android-sdk:fsbase-sdk:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/fsbase-sdk-1.0.13.aar/2a34c0458ba23905d1cabbb044a1ceaf/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:5:5-12:19
+MERGED from [com.github.friendlyscore.fs-android-sdk:friendlyscore-connect:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/friendlyscore-connect-1.0.13.aar/8df0386899a9682a0d7227f340a6babe/AndroidManifest.xml:11:5-16:19
+MERGED from [com.github.friendlyscore.fs-android-sdk:friendlyscore-connect:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/friendlyscore-connect-1.0.13.aar/8df0386899a9682a0d7227f340a6babe/AndroidManifest.xml:11:5-16:19
+MERGED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:11:5-87:19
+MERGED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:11:5-87:19
+MERGED from [com.github.friendlyscore.fs-android-sdk:fsbase-sdk:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/fsbase-sdk-1.0.13.aar/2a34c0458ba23905d1cabbb044a1ceaf/AndroidManifest.xml:14:5-20:19
+MERGED from [com.github.friendlyscore.fs-android-sdk:fsbase-sdk:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/fsbase-sdk-1.0.13.aar/2a34c0458ba23905d1cabbb044a1ceaf/AndroidManifest.xml:14:5-20:19
+MERGED from [com.google.android.material:material:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/8a0b70f5eee226a3d6c079a1b665b2fb/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/8a0b70f5eee226a3d6c079a1b665b2fb/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/84a27ca295e125886b93755f29093a48/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/84a27ca295e125886b93755f29093a48/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0.aar/11a36b77ae3499fdf9274052a2e0d2ba/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0.aar/11a36b77ae3499fdf9274052a2e0d2ba/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.core:core:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/d0b89bda8415681861f78bac7154f24b/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/d0b89bda8415681861f78bac7154f24b/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/b02cbd1d93ec6401749ff93aebd89208/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/b02cbd1d93ec6401749ff93aebd89208/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/c8e8d54e8a9cca14fed74b61feeb47de/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/c8e8d54e8a9cca14fed74b61feeb47de/AndroidManifest.xml:22:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/d0b89bda8415681861f78bac7154f24b/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:5:182-208
+	android:label
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:5:88-120
+	android:hardwareAccelerated
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:5:53-87
+	android:networkSecurityConfig
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:5:121-181
+activity#com.demo.friendlyscore.connect.MainActivity
+ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:6:136-173
+	android:launchMode
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:6:174-204
+	android:windowSoftInputMode
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:6:296-338
+	android:configChanges
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:6:19-135
+	android:theme
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:6:233-295
+	android:name
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:6:205-232
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+uses-sdk
+INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml
+MERGED from [com.github.friendlyscore.fs-android-sdk:friendlyscore-connect:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/friendlyscore-connect-1.0.13.aar/8df0386899a9682a0d7227f340a6babe/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.friendlyscore.fs-android-sdk:friendlyscore-connect:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/friendlyscore-connect-1.0.13.aar/8df0386899a9682a0d7227f340a6babe/AndroidManifest.xml:7:5-9:41
+MERGED from [:CordovaLib] /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-44
+MERGED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.friendlyscore.fs-android-sdk:fsbase-sdk:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/fsbase-sdk-1.0.13.aar/2a34c0458ba23905d1cabbb044a1ceaf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.friendlyscore.fs-android-sdk:fsbase-sdk:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/fsbase-sdk-1.0.13.aar/2a34c0458ba23905d1cabbb044a1ceaf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/8a0b70f5eee226a3d6c079a1b665b2fb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/8a0b70f5eee226a3d6c079a1b665b2fb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/4846eb78cd7ad426adbd913eadbea338/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/4846eb78cd7ad426adbd913eadbea338/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/core-ktx-1.1.0.aar/0cec25e3e5aa0c7e15039c069526dc79/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/core-ktx-1.1.0.aar/0cec25e3e5aa0c7e15039c069526dc79/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.multidex:multidex:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/8525ffcb3153bc2a046d17878b137c15/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/8525ffcb3153bc2a046d17878b137c15/AndroidManifest.xml:20:5-43
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/511a4fba04f8d0c2b1e6e30d4ca3b485/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/511a4fba04f8d0c2b1e6e30d4ca3b485/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/13ef474d4c4d997e0d10ce34fadc7e85/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/13ef474d4c4d997e0d10ce34fadc7e85/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/84a27ca295e125886b93755f29093a48/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/84a27ca295e125886b93755f29093a48/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0.aar/11a36b77ae3499fdf9274052a2e0d2ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.0.0.aar/11a36b77ae3499fdf9274052a2e0d2ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/e1cde180b4a5ee94d9eb89afec039cca/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/e1cde180b4a5ee94d9eb89afec039cca/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/a6500e7e7df10cd6e4ee712ebdcb9854/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/a6500e7e7df10cd6e4ee712ebdcb9854/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/e021514850936596a7eead8ebfaf0644/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/e021514850936596a7eead8ebfaf0644/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/67ebb98adb447ec77969ccff9372294a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/67ebb98adb447ec77969ccff9372294a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/ff927d3afbb2e19a69cb81c0e1c52d4d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/ff927d3afbb2e19a69cb81c0e1c52d4d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/7f77df290eadee4bf1f305eae8191abb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/7f77df290eadee4bf1f305eae8191abb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/dc4d003e20d31de6fbbdbddb90a5cb93/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/dc4d003e20d31de6fbbdbddb90a5cb93/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/df6b7f0edbf5d61f2b600f88858673f7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/df6b7f0edbf5d61f2b600f88858673f7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/123f07b41f3ab822e9a1c5cfd83ea513/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/123f07b41f3ab822e9a1c5cfd83ea513/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/1ef0173021190ef548c1ec97bed10702/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/1ef0173021190ef548c1ec97bed10702/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/048bc1380c8b503990a61a7b7484da64/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/048bc1380c8b503990a61a7b7484da64/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/61426d0c288f63bf441cdc3735bd4440/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/61426d0c288f63bf441cdc3735bd4440/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/75b79b6b7dd42bfcf4f24e373c9fb17c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/75b79b6b7dd42bfcf4f24e373c9fb17c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/9ac0a0e5b10a656016b3120107257dd5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/9ac0a0e5b10a656016b3120107257dd5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/1aa94ea66c52a19c705f8c080832c849/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/1aa94ea66c52a19c705f8c080832c849/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/3d295a57145d825a140bc99a2daf691c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/3d295a57145d825a140bc99a2daf691c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/b6b1de5f577c9df0bca78822814b6398/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/b6b1de5f577c9df0bca78822814b6398/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/d0b89bda8415681861f78bac7154f24b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/d0b89bda8415681861f78bac7154f24b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/1da29d85947f828c9c5f7063c59f3495/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/1da29d85947f828c9c5f7063c59f3495/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/02b7497c6dc741bba1efb500d50e44cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/02b7497c6dc741bba1efb500d50e44cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/1c11ecee58ecbd53f6bce1e5f164f83f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/1c11ecee58ecbd53f6bce1e5f164f83f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/f7e7d2a41e246669654461f93bc3a822/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/f7e7d2a41e246669654461f93bc3a822/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/97be237e9453cc4c166dc3052d7bf99f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/97be237e9453cc4c166dc3052d7bf99f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/b02cbd1d93ec6401749ff93aebd89208/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/b02cbd1d93ec6401749ff93aebd89208/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/d4f752f8190b1f5448cb00bc1448ba41/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/d4f752f8190b1f5448cb00bc1448ba41/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/a0e14d8bc90c1454a54668d58f6fad0e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/a0e14d8bc90c1454a54668d58f6fad0e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/74fb9998f6b670b1145a679c27c67b63/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/74fb9998f6b670b1145a679c27c67b63/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/6149e1b2e08210bd5d695233eb0407e9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/6149e1b2e08210bd5d695233eb0407e9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/c8e8d54e8a9cca14fed74b61feeb47de/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/c8e8d54e8a9cca14fed74b61feeb47de/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-service-2.0.0.aar/7a43226fb43d4a3271cb40cdd8ddb4c5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-service-2.0.0.aar/7a43226fb43d4a3271cb40cdd8ddb4c5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/7dcd41e80e052c2b2a85b5f449b556c0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/7dcd41e80e052c2b2a85b5f449b556c0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/31219e61b68cf55400565dbfea939010/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/31219e61b68cf55400565dbfea939010/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/370caa2320797c73a1fdfaa781ed4903/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/370caa2320797c73a1fdfaa781ed4903/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/src/main/AndroidManifest.xml
+activity#com.friendlyscore.ui.obp.FriendlyScoreView
+ADDED from [com.github.friendlyscore.fs-android-sdk:friendlyscore-connect:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/friendlyscore-connect-1.0.13.aar/8df0386899a9682a0d7227f340a6babe/AndroidManifest.xml:12:9-15:59
+	android:windowSoftInputMode
+		ADDED from [com.github.friendlyscore.fs-android-sdk:friendlyscore-connect:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/friendlyscore-connect-1.0.13.aar/8df0386899a9682a0d7227f340a6babe/AndroidManifest.xml:15:13-56
+	android:theme
+		ADDED from [com.github.friendlyscore.fs-android-sdk:friendlyscore-connect:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/friendlyscore-connect-1.0.13.aar/8df0386899a9682a0d7227f340a6babe/AndroidManifest.xml:14:13-55
+	android:name
+		ADDED from [com.github.friendlyscore.fs-android-sdk:friendlyscore-connect:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/friendlyscore-connect-1.0.13.aar/8df0386899a9682a0d7227f340a6babe/AndroidManifest.xml:13:13-70
+activity#com.friendlyscore.openbanking.BankDetailActivity
+ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:12:9-15:60
+	android:label
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:14:13-63
+	android:theme
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:15:13-57
+	android:name
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:13:13-76
+activity#com.friendlyscore.openbanking.ConnectedBanksActivity
+ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:16:9-18:60
+	android:theme
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:18:13-57
+	android:name
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:17:13-80
+activity#com.friendlyscore.openbanking.BankConnectThankYouRedirect
+ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:19:9-34:20
+	android:parentActivityName
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:21:13-98
+	android:theme
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:22:13-57
+	android:name
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:20:13-85
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/fs_open_banking_host+data:path:@string/fs_open_banking_success_path+data:scheme:@string/fs_app_redirect_scheme
+ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:23:13-33:29
+	android:label
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:23:28-57
+action#android.intent.action.VIEW
+ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:24:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:26:17-76
+	android:name
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:26:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:27:17-78
+	android:name
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:27:27-75
+data
+ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:29:17-32:71
+	android:path
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:31:21-72
+	android:host
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:30:21-64
+	android:scheme
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:32:21-68
+activity#com.friendlyscore.openbanking.BankConnectErrorRedirect
+ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:54:9-70:20
+	android:parentActivityName
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:57:13-98
+	android:launchMode
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:56:13-43
+	android:theme
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:58:13-57
+	android:name
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:55:13-82
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/fs_open_banking_host+data:path:@string/fs_open_banking_error_path+data:scheme:@string/fs_app_redirect_scheme
+ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:59:13-69:29
+	android:label
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:59:28-57
+activity#com.friendlyscore.openbanking.BankConnectConsentActivity
+ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:71:9-86:20
+	android:launchMode
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:73:13-43
+	android:theme
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:74:13-57
+	android:name
+		ADDED from [com.github.friendlyscore.fs-android-sdk:openbanking:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/AndroidManifest.xml:72:13-84
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.github.friendlyscore.fs-android-sdk:fsbase-sdk:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/fsbase-sdk-1.0.13.aar/2a34c0458ba23905d1cabbb044a1ceaf/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.github.friendlyscore.fs-android-sdk:fsbase-sdk:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/fsbase-sdk-1.0.13.aar/2a34c0458ba23905d1cabbb044a1ceaf/AndroidManifest.xml:12:22-76
+activity#com.friendlyscore.base.ui.ScoreCategoryItemActivity
+ADDED from [com.github.friendlyscore.fs-android-sdk:fsbase-sdk:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/fsbase-sdk-1.0.13.aar/2a34c0458ba23905d1cabbb044a1ceaf/AndroidManifest.xml:15:9-19:20
+	android:hardwareAccelerated
+		ADDED from [com.github.friendlyscore.fs-android-sdk:fsbase-sdk:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/fsbase-sdk-1.0.13.aar/2a34c0458ba23905d1cabbb044a1ceaf/AndroidManifest.xml:17:13-48
+	android:theme
+		ADDED from [com.github.friendlyscore.fs-android-sdk:fsbase-sdk:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/fsbase-sdk-1.0.13.aar/2a34c0458ba23905d1cabbb044a1ceaf/AndroidManifest.xml:18:13-55
+	android:name
+		ADDED from [com.github.friendlyscore.fs-android-sdk:fsbase-sdk:1.0.13] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/fsbase-sdk-1.0.13.aar/2a34c0458ba23905d1cabbb044a1ceaf/AndroidManifest.xml:16:13-79
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/c8e8d54e8a9cca14fed74b61feeb47de/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/c8e8d54e8a9cca14fed74b61feeb47de/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/c8e8d54e8a9cca14fed74b61feeb47de/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/c8e8d54e8a9cca14fed74b61feeb47de/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/depressedrobot/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/c8e8d54e8a9cca14fed74b61feeb47de/AndroidManifest.xml:24:13-79

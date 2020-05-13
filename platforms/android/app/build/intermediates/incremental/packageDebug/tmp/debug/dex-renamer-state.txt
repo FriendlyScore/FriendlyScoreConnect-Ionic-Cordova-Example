@@ -1,0 +1,13 @@
+#Wed May 13 10:46:48 CEST 2020
+path.3=classes.dex
+path.2=classes.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.3=/home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/build/intermediates/transforms/dexMerger/debug/1
+base.2=/home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+base.1=/home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/build/intermediates/transforms/dexMerger/debug/3
+base.0=/home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/build/intermediates/transforms/dexMerger/debug/2

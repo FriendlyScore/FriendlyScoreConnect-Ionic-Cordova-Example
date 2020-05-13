@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xhdpi-v4/values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/depressedrobot/.gradle/caches/transforms-1/files-1.1/fsbase-sdk-1.0.13.aar/2a34c0458ba23905d1cabbb044a1ceaf/res/values-xhdpi-v4/values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,97,181,252,303,374,451,502,554,611,662,713,761,809,865,923",
+                        "endColumns": "41,83,70,50,70,76,50,51,56,50,50,47,47,55,57,54",
+                        "endOffsets": "92,176,247,298,369,446,497,549,606,657,708,756,804,860,918,973"
+                    },
+                    "to": {
+                        "startLines": "12,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "732,869,953,1024,1075,1146,1223,1274,1326,1383,1434,1485,1533,1581,1637,1695",
+                        "endColumns": "41,83,70,50,70,76,50,51,56,50,50,47,47,55,57,54",
+                        "endOffsets": "769,948,1019,1070,1141,1218,1269,1321,1378,1429,1480,1528,1576,1632,1690,1745"
+                    }
+                },
+                {
+                    "source": "/home/depressedrobot/.gradle/caches/transforms-1/files-1.1/openbanking-1.0.13.aar/6ec84aece37c17f513d2db91545c05a2/res/values-xhdpi-v4/values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,128,180,233,310,388,466,517,600,682,732,777",
+                        "endColumns": "72,51,52,76,77,77,50,82,81,49,44,49",
+                        "endOffsets": "123,175,228,305,383,461,512,595,677,727,772,822"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,128,180,233,310,388,466,517,600,682,774,819",
+                        "endColumns": "72,51,52,76,77,77,50,82,81,49,44,49",
+                        "endOffsets": "123,175,228,305,383,461,512,595,677,727,814,864"
+                    }
+                }
+            ]
+        }
+    ]
+}
