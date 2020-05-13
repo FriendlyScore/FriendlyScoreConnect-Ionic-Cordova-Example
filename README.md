@@ -44,6 +44,7 @@ Clone the repository [FriendlyScoreConnectPlugin](https://github.com/FriendlySco
 Inside the `FriendlyScoreConnectPlugin` folder, the important files/dirs are
 
 `my_app_plugins/FriendlyScoreConnectPlugin/package.json`
+
 `my_app_plugins/FriendlyScoreConnectPlugin/plugin.xml`
 
 The `Plugin Id` is listed in the `package.json` file. It will be used later.
@@ -74,7 +75,11 @@ In order to use the `Plugin` easily we must integrate the plugin with the Ionic 
 
 The above steps will create a plugin in `ionic-native/src/@ionic-native/plugins/friendly-score-connect-plugin/index.ts`
 
-The contents of `index.ts` must look like the code block below. Pay special attention to the Plugin annotation. It use the same id as the plugin from the `my_app_plugins/FriendlyScoreConnectPlugin/package.json`. The declaration & definition of the function to be called matches the function in the `FriendlyScoreConnectPlugin.java`
+The contents of `index.ts` must look like the code block below. Pay special attention to the Plugin annotation. 
+
+It use the same id as the plugin from the `my_app_plugins/FriendlyScoreConnectPlugin/package.json`. 
+
+The declaration & definition of the function to be called matches the function in the `FriendlyScoreConnectPlugin.java`
 
 ```javascript
 
@@ -163,9 +168,9 @@ ionic cordova platform add android
 Please follow the instructions below to install FriendlyScore Connect Android Native library, provide the necessary configuration and understand the flow.
 
 
-#### Add the following values to your project-level build.gradle file
+#### Add to the project-level build.gradle file
 
-In your project-level Gradle file (you can find an example in the demo [build.gradle](https://github.com/FriendlyScore/FriendlyScore-Connect-Ionic-Native-Example/blob/master/android/build.gradle)), add rules to include the Android Gradle plugin. The version should be equal to or greater than `3.2.1`.
+In your project-level Gradle file (you can find an example in the demo [build.gradle](https://github.com/FriendlyScore/FriendlyScoreConnect-Ionic-Cordova-Example/blob/master/platforms/android/build.gradle)), add rules to include the Android Gradle plugin. The version should be equal to or greater than `3.2.1`.
 
 ```groovy
 buildscript {
@@ -174,10 +179,6 @@ buildscript {
     }
 }  
 ```
-  
-#### Add the following values to your project-level build.gradle file
-
-In your project-level Gradle file (you can find an example in the demo, [build.gradle](https://github.com/FriendlyScore/FriendlyScore-Connect-Ionic-Native-Example/blob/master/android/build.gradle)), add the Jitpack Maven repository:
 
 ```groovy
 allprojects {
@@ -190,7 +191,7 @@ allprojects {
    
 Go to the [Redirects](https://friendlyscore.com/company/redirects) section of the FriendlyScore developer console and provide your `App Package Id` and `App Redirect Scheme`.
    
-In the project-level properties file (you can find an example in the demo [gradle.properties](https://github.com/FriendlyScore/FriendlyScore-Connect-Ionic-Native-Example/blob/master/android/gradle.properties)), please add the following configuration values:
+In the project-level properties file (you can find an example in the demo [gradle.properties](https://github.com/FriendlyScore/FriendlyScoreConnect-Ionic-Cordova-Example/blob/master/platforms/android/gradle.properties)), please add the following configuration values:
 
 ```bash
 # App Redirect Scheme value is in the Redirects section of the developer console.
@@ -199,7 +200,7 @@ In the project-level properties file (you can find an example in the demo [gradl
 APP_REDIRECT_SCHEME=app_redirect_scheme
 ```
 
-#### Add the following values to your App Level build.gradle file(In the demo, [app/build.gradle](https://github.com/FriendlyScore/FriendlyScore-Connect-Ionic-Native-Example/blob/master/android/app/build.gradle))
+#### Add to the App Level build.gradle file(In the demo, [app/build.gradle](https://github.com/FriendlyScore/FriendlyScoreConnect-Ionic-Cordova-Example/blob/master/platforms/android/app/build.gradle))
   
 Now we must read the configuration to create the string resources that will be used by the FriendlyScore Connect Android library. Also we will include the FriendlyScore Connect Library.
 
