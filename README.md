@@ -280,7 +280,7 @@ providers: [
   ],
 ```
 
-In your component file (in the demo[app.component.ts](https://github.com/FriendlyScore/FriendlyScoreConnect-Ionic-Cordova-Example/blob/master/src/app/app.component.ts)) import the file
+In your component file (in the demo [app.component.ts](https://github.com/FriendlyScore/FriendlyScoreConnect-Ionic-Cordova-Example/blob/master/src/app/app.component.ts)) import the file
 ```typescript
 import {FriendlyScoreConnectPlugin} from '@ionic-native/friendly-score-connect-plugin/ngx';
 
@@ -310,6 +310,19 @@ startfs(){
 }
 ```
 
+**NOTE**
+
+If you make changes to the native plugin file, you must do the following steps to reflect the changes
+
+```bash
+#remove the old plugin
+1. ionic cordova plugin rm com.friendlyscore.connect.cordova.plugin
+#Add the plugin again
+2. ionic cordova plugin add ../custom_plugins/FriendlyScoreConnectPlugin
+#Copy the generated Plugin Ionic Native Framework to your project
+3. cp -r /ionic-native/dist/@ionic-native/plugins/friendly-score-connect-plugin node_modules/@ionic-native/
+4. ionic cordova build [platform]
+```
 ## Error Definition
 | Error                     | Definitions  | 
 | -------------             | -------------|
