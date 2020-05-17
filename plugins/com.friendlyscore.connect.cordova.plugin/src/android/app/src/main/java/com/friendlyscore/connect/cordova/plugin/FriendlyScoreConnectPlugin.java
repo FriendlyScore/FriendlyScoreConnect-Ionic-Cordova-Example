@@ -18,7 +18,7 @@ public class FriendlyScoreConnectPlugin extends CordovaPlugin {
 
     public CordovaInterface cordovaInterface;
     CallbackContext callbackContext;
-    String client_id = "831_ys8gjppjmiowwsksskg0ws4cw0swww44sc400csgss4g4swkc";
+    String client_id = "client_id";
     @Override
     public void initialize(CordovaInterface cordova, CordovaWebView webView) {
         this.cordovaInterface = cordova;
