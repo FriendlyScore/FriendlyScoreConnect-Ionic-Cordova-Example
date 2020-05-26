@@ -69,7 +69,7 @@ iOS:
 
 The file `src/www/FriendlyScoreConnectPlugin.js` exports the `Plugin` for use in the app.
 
-Change the `client_id` variable to your `client_id` obtained from FriendlyScore earlier. For Android: [FriendlyScoreConnectPlugin.java](https://github.com/FriendlyScore/FriendlyScoreConnectPlugin/src/android/app/src/main/java/com/friendlyscore/connect/cordova/plugin/FriendlyScoreConnectPlugin.java), iOS:[FriendlyScoreConnectPlugin.m](https://github.com/FriendlyScore/FriendlyScoreConnectPlugin/src/android/app/src/main/java/com/friendlyscore/connect/cordova/plugin/FriendlyScoreConnectPlugin.java)
+Change the `client_id` variable to your `client_id` obtained from FriendlyScore earlier. For Android: [FriendlyScoreConnectPlugin.java](https://github.com/FriendlyScore/FriendlyScoreConnectPlugin/src/android/app/src/main/java/com/friendlyscore/connect/cordova/plugin/FriendlyScoreConnectPlugin.java), iOS:[FriendlyScoreConnectPlugin.m](https://github.com/FriendlyScore/FriendlyScoreConnect-Ionic-Cordova-Example/blob/master/platforms/ios/fs_connect_cordova/Plugins/com.friendlyscore.connect.cordova.plugin/FriendlyScoreConnectPlugin.m)
 
 Your `Plugin` should be ready.
 
