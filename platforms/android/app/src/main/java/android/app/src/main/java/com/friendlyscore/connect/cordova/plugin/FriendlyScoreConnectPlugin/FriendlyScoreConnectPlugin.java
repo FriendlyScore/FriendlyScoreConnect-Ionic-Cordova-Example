@@ -3,7 +3,6 @@ package com.friendlyscore.connect.cordova.plugin;
 import android.content.Intent;
 
 import com.friendlyscore.base.Environments;
-import com.friendlyscore.base.utils.ClientPrefsHelper;
 import com.friendlyscore.ui.obp.FriendlyScoreView;
 
 import org.apache.cordova.CallbackContext;
@@ -49,7 +48,7 @@ public class FriendlyScoreConnectPlugin extends CordovaPlugin {
      * Declare the environment to use the FriendlyScore Connect.
      * The client_id declared in gradle.properties must be for the same environment
      */
-    public Environments environment = Environments.SANDBOX;
+    public Environments environment = Environments.PRODUCTION;
 
     /**
      In order to listen when the user returns from the FriendlyScoreView in your `onActivityResult`, you must provide the `requestcode` that you will be using.
@@ -155,7 +154,6 @@ public class FriendlyScoreConnectPlugin extends CordovaPlugin {
 
             @Override
             public void run() {
-                ClientPrefsHelper.clearAppUserToken(cordovaInterface.getActivity());
                 FriendlyScoreView.Companion.startFriendlyScoreView( cordovaInterface.getActivity(),  client_id, userReference, REQUEST_CODE_FRIENDLY_SCORE, environment);
             }
         });

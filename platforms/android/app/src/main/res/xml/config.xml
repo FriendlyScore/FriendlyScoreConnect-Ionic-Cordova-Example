@@ -15,9 +15,6 @@
         <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="FriendlyScoreConnectPlugin">
-        <param name="android-package" value="com.friendlyscore.connect.cordova.plugin.FriendlyScoreConnectPlugin" />
-    </feature>
     <allow-navigation href="http://localhost/*" />
     <allow-navigation href="https://localhost/*" />
     <allow-navigation href="ionic://*" />
@@ -72,4 +69,7 @@
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
+    <feature name="FriendlyScoreConnectPlugin">
+        <param name="android-package" value="com.friendlyscore.connect.cordova.plugin.FriendlyScoreConnectPlugin" />
+    </feature>
 </widget>

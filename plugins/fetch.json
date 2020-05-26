@@ -52,7 +52,7 @@
   "com.friendlyscore.connect.cordova.plugin": {
     "source": {
       "type": "local",
-      "path": "/home/depressedrobot/Documents/ionic/com.demo.friendlyscore.connect/node_modules/com.friendlyscore.connect.cordova.plugin"
+      "path": "/Users/jestspoko/FriendlyScoreConnect-Ionic-Cordova-Example/node_modules/com.friendlyscore.connect.cordova.plugin"
     },
     "is_top_level": true,
     "variables": {}
