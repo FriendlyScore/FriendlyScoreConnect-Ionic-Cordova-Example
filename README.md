@@ -15,6 +15,9 @@ To get started quickly with FriendlyScore Connect for Ionic, clone the [GitHub r
 ### Android
 - Install or update Android Studio version 3.2 or greater
 - Android 5.0 and greater
+### iOS
+- XCode 10
+- iOS 12.0
 
 
 ## Quickstart Demo App
@@ -23,7 +26,7 @@ Clone and run the demo project from our [GitHub repository](https://github.com/F
 
 ## Implementation 
 
-First we will create the `Plugin` as a separate `android` library which we will then add to the App to enable interaction between the UI component and Native Android code.
+First we will create the `Plugin` as a separate `android` library which we will then add to the App to enable interaction between the UI component and Native Android/iOS code.
 
 In order to create the `Plugin` for Corodova we will use `plugman`,
 
@@ -49,17 +52,24 @@ Inside the `FriendlyScoreConnectPlugin` folder, the important files/dirs are
 
 The `Plugin Id` is listed in the `package.json` file. It will be used later.
 
-In the `plugin.xml` file the check the file paths if they are correct(They are relative, should be correct). Look for the line
+In the `plugin.xml` file the check the file paths if they are correct(They are relative, should be correct). For Android, ook for the line
 
 ```xml
 <source-file 
 src="src/android/app/src/main/java/com/friendlyscore/connect/cordova/plugin/FriendlyScoreConnectPlugin.java" 
 target-dir="src/android/app/src/main/java/com/friendlyscore/connect/cordova/plugin/FriendlyScoreConnectPlugin" />
-
 ```
+
+iOS:
+```xml
+<header-file src="src/ios/FriendlyScoreConnectPlugin.h" />
+<source-file src="src/ios/FriendlyScoreConnectPlugin.m" />
+<source-file src="src/ios/FriendlyScoreSDK.framework" framework="true" />
+```
+
 The file `src/www/FriendlyScoreConnectPlugin.js` exports the `Plugin` for use in the app.
 
-Change the `client_id` variable in the file [FriendlyScoreConnectPlugin.java](https://github.com/FriendlyScore/FriendlyScoreConnectPlugin/src/android/app/src/main/java/com/friendlyscore/connect/cordova/plugin/FriendlyScoreConnectPlugin.java) to your `client_id` obtained from FriendlyScore earlier.
+Change the `client_id` variable to your `client_id` obtained from FriendlyScore earlier. For Android: [FriendlyScoreConnectPlugin.java](https://github.com/FriendlyScore/FriendlyScoreConnectPlugin/src/android/app/src/main/java/com/friendlyscore/connect/cordova/plugin/FriendlyScoreConnectPlugin.java), iOS:[FriendlyScoreConnectPlugin.m](https://github.com/FriendlyScore/FriendlyScoreConnectPlugin/src/android/app/src/main/java/com/friendlyscore/connect/cordova/plugin/FriendlyScoreConnectPlugin.java)
 
 Your `Plugin` should be ready.
 
@@ -79,7 +89,7 @@ The contents of `index.ts` must look like the code block below. Pay special atte
 
 It use the same id as the plugin from the `my_app_plugins/FriendlyScoreConnectPlugin/package.json`. 
 
-The declaration & definition of the function to be called matches the function in the `FriendlyScoreConnectPlugin.java`
+The declaration & definition of the function to be called matches the function in the `FriendlyScoreConnectPlugin.java` (Android), `FriendlyScoreConnectPlugin.m` (iOS)
 
 ```javascript
 
@@ -229,6 +239,8 @@ You can select the environment you want to use:
 | Environments.DEVELOPMENT | Use this your environment to test your integration with live but limited Production API Calls |
 | Environments.PRODUCTION  | Production API environment |
 
+
+
 ## Use the Plugin
 
 ### Add a Button 
@@ -250,6 +262,11 @@ In your app component html file (in the demo [app.component.html](https://github
 
 ```bash
     ionic cordova build android 
+```
+and/or
+
+```bash
+    ionic cordova build ios 
 ```
 - In your project directory execute the following command to create a plugin.
 
@@ -308,6 +325,49 @@ startfs(){
   }
 
 }
+```
+
+### Ionic-Cordova iOS Platform
+
+If you do not have the `iOS` platform in your Ionic-Cordova app, you can create it.
+
+```bash
+ionic cordova platform add ios
+```
+
+Navigate to `platforms/ios` directory and open xcode project (in example: `fs_connect_cordova.xcodeproj`).
+Make sure `FriendlyScoreConnectPlugin.m` and `FriendlyScoreConnectPlugin.h` files are aviable in `plugins` folder.
+Please also check framework `FriendlyScoreSDK.framework` is added to project and is listed in `Frameworks, Libraries and Embedded Content` section:
+![alt text](https://raw.githubusercontent.com/FriendlyScore/FriendlyScoreConnect-Ionic-Cordova-Example/master/framework.png "Framework")
+
+
+Open `AppDelegate.m` file, import framework
+```Objective-C
+@import FriendlyScoreSDK;
+```
+and add framework configurations accordingly:
+
+```Objective-C
+- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
+{
+    [FS configureConnect];
+    self.viewController = [[MainViewController alloc] init];
+    return [super application:application didFinishLaunchingWithOptions:launchOptions];
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+    [FS handleURLWithUrl:url];
+    return true;
+}
+```
+Finaly, fill your client Id in `FriendlyScoreConnectPlugin.m`:
+```Objective-C
+NSString *clientId = @"<YOUR_CLIENT_ID>";
+```
+
+Check if everything works well:
+```bash
+ionic cordova platform run ios
 ```
 
 **NOTE**
