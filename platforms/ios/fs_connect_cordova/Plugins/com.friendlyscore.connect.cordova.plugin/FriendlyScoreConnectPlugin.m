@@ -11,7 +11,7 @@
 
 @implementation FriendlyScoreConnectPlugin
 
-NSString *clientId = @"831_ys8gjppjmiowwsksskg0ws4cw0swww44sc400csgss4g4swkc";
+NSString *clientId = @"";
 NSString *environment = @"production";
 
 - (void)startFriendlyScoreConnect:(CDVInvokedUrlCommand*)command

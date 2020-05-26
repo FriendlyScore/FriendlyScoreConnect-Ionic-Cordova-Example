@@ -425,7 +425,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)/Plugins/com.friendlyscore.connect.cordova.plugin\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.friendlyscore.ConnectInternalDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.friendlyscore.ionic.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,7 +456,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)/Plugins/com.friendlyscore.connect.cordova.plugin\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.friendlyscore.ConnectInternalDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.friendlyscore.ionic.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
