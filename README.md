@@ -133,7 +133,7 @@ import { Observable } from 'rxjs';
   pluginName: 'FriendlyScoreConnectPlugin',
   plugin: 'com.friendlyscore.connect.cordova.plugin', // npm package name, example: cordova-plugin-camera
   pluginRef: 'cordova.plugins.FriendlyScoreConnectPlugin', // the variable reference to call the plugin, example: navigator.geolocation
-  platforms: ['Android'] // Array of platforms supported, example: ['Android', 'iOS']
+  platforms: ['Android', 'iOS'] // Array of platforms supported, example: ['Android', 'iOS']
 })
 @Injectable()
 export class FriendlyScoreConnectPlugin extends IonicNativePlugin {
