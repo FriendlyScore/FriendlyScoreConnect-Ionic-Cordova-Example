@@ -288,7 +288,7 @@ dependencies {
     implementation(project(path: ":CordovaLib"))
     implementation "com.android.support:support-annotations:27.+"
     // SUB-PROJECT DEPENDENCIES END
-    api ('com.github.friendlyscore.fs-android-sdk:friendlyscore-connect:1.0.16'){
+    api ('com.github.friendlyscore.fs-android-sdk:friendlyscore-connect:1.0.17'){
         changing=true
     }
 }
